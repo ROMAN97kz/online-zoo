@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Online-Zoo</title>
 </head>
 <body>
     <!-- ОСНОВНАЯ СТРАНИЦА С НАВИГАЦИЕЙ в хедер И ФОТО С ПАНДОЙ ФоН ЗАЛИВКА -->
     <section class="section1_ft">
         <header>
-            <h1 class="logo"><a href="ВСТАВИТЬ СЮДА ССЫЛКУ НА СТРАНИЦУ">PetStory Online</a></h1>
-            <h2>About</h2>
-            <h2>Map</h2>
-            <h2>Zoos</h2>
-            <h2><a href="ВСТАВИТЬ СЮДА ССЫЛКУ НА donate">Donate</a></h2>
-            <h2>Contast us</h2>
-            <h2><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a></h2>
+            <div class="menu">
+                <h1 class="logo"><a href="ВСТАВИТЬ СЮДА ССЫЛКУ НА СТРАНИЦУ">PetStory<br>Online</a></h1>
+                <h2>About</h2>
+                <h2>Map</h2>
+                <h2>Zoos</h2>
+                <h2><a href="ВСТАВИТЬ СЮДА ССЫЛКУ НА donate">Donate</a></h2>
+                <h2>Contast us</h2>
+                <h2><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a></h2>
+            </div>
+
+            <block class="blockMainPanda">
+                <img src="https://github.com/ROMAN97kz/online-zoo/blob/36024bef76f199c5d11fdfc57d99615155cbbaa6/online-zoo/assets/images/Giant%20Panda.png?raw=true" alt="panda">
+                <div>Elipse создать</div>
+                <p>Watch your favorite animal online</p>
+                <button class="btn">Watch online</button>
+            </block>
         </header>
-        <block class="blockMainPanda">
-            <img src="https://github.com/ROMAN97kz/online-zoo/blob/36024bef76f199c5d11fdfc57d99615155cbbaa6/online-zoo/assets/images/Giant%20Panda.png?raw=true" alt="panda">
-            <div>Elipse создать</div>
-            <p>Watch your favorite animal online</p>
-            <button class="btn">Watch online</button>
-        </block>
+
     </section>
     <!-- описание работы сайта -->
     <section class="section2">
@@ -144,19 +149,39 @@
         <h2 class="logo"><a href="ВСТАВИТЬ СЮДА ССЫЛКУ НА СТРАНИЦУ">PetStory Online</a></h2>
         <button class="btn">donate for volunteers</button>
         <!-- соцсети контейнер -->
-        <div>
+        <div class="sotclogo">
             <div class="facebook">
-                <img src="" alt="">
+                <img src="https://raw.githubusercontent.com/ROMAN97kz/online-zoo/3c7e14721883da09c594b035965ace7fe67c1aba/online-zoo/assets/icons/Ellipse.svg" alt="elipse icon">
+                <img src="https://raw.githubusercontent.com/ROMAN97kz/online-zoo/3c7e14721883da09c594b035965ace7fe67c1aba/online-zoo/assets/icons/Ffactbook.svg" alt="facebook icon">
                 <h4>Facebook</h4>
             </div>
             <div class="twitter">
-                <img src="" alt="">
+                <img src="https://raw.githubusercontent.com/ROMAN97kz/online-zoo/3c7e14721883da09c594b035965ace7fe67c1aba/online-zoo/assets/icons/Ellipse.svg" alt="elipse icon">
+                <img src="https://raw.githubusercontent.com/ROMAN97kz/online-zoo/3c7e14721883da09c594b035965ace7fe67c1aba/online-zoo/assets/icons/twitter.svg" alt="twitter icon">
                 <h4>Twitter</h4>
             </div>
             <div class="instagram">
-                <img src="" alt="">
+                <img src="https://raw.githubusercontent.com/ROMAN97kz/online-zoo/3c7e14721883da09c594b035965ace7fe67c1aba/online-zoo/assets/icons/Ellipse.svg" alt="elipse icon">
+                <img src="https://raw.githubusercontent.com/ROMAN97kz/online-zoo/3c7e14721883da09c594b035965ace7fe67c1aba/online-zoo/assets/icons/Instagram.svg" alt="instagram icon">
                 <h4>Instagram</h4>
             </div>
+        </div>
+        <!-- контейнер с навигацией -->
+        <div>
+            <h3>About</h3>
+            <h3>Map</h3>
+            <h3>Zoos</h3>
+            <h3>Contact us</h3>
+        </div>
+        <!-- подписка на Емайл -->
+        <h3>Subscribe to our news</h3>
+        <input name="input_email" type="email" value="Enter your email">
+        <input name="button" type="button" value="Submit">
+        <!-- контейнер с авторами -->
+        <div class="authors">
+            <p>Designed by Alisa Samborskaya</p>
+            <p>Made by Roman Duka</p>
+            <p>©RSSchool & ©Yem Digital 2021</p>
         </div>
     </footer>
 </body>

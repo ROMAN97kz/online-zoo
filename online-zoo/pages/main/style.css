@@ -1,1 +1,36 @@
+html{
+    max-width: 1600px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
 
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 80px;
+    color: white;
+    font-family: Roboto;
+}
+
+
+.blockMainPanda {
+    height: 780px;
+    z-index: -1;
+}
+
+a{
+    color: white;
+
+}
+/* убрал подчеркивание ссылки */
+a:link { text-decoration: none; }
+
+.logo{
+    border: 1px solid white;
+    border-radius: 1px;
+}
