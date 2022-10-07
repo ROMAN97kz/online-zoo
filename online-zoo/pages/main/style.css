@@ -4,20 +4,27 @@ html{
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 
 .menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     background-color: black;
     height: 80px;
     color: white;
     font-family: Roboto;
 }
 
+.left{
+    margin-left: 59px;
+}
 
+.right{
+    margin-right: 1275px;
+}
 .blockMainPanda {
     height: 780px;
     z-index: -1;
@@ -33,4 +40,9 @@ a:link { text-decoration: none; }
 .logo{
     border: 1px solid white;
     border-radius: 1px;
+}
+
+.firstview{
+    position: absolute;
+
 }
